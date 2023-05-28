@@ -1,0 +1,15 @@
+{
+  "name": "html2pdf",
+  "version": "1.0.0",
+  "description": "This a sample Azure function for converting html to pdf using puppeteer, if have any questions please contact me at https://twitter.com/taha_azzabi",
+  "scripts": {
+    "start": "func start",
+    "postinstall": "node node_modules/puppeteer/install.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.4.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
+  }
+}
